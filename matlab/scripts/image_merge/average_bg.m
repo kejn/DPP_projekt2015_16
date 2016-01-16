@@ -17,7 +17,7 @@ for file = input_images
     i = i+1;
 end
 
-output_filename = sprintf('%s\\img_bg_avrg.%s', input_directory,img_format);
+output_filename = sprintf('img_bg_avrg.%s',img_format);
 fprintf('Processing %s ... ', output_filename);
 output_image = average_image(images);
 fprintf('Saving ... ');
